@@ -5,6 +5,7 @@ set -e
 
 echo "==> Updating Homebrew packages..."
 brew update
+brew upgrade
 echo
 echo "==> Updating user applications..."
 echo "### rustup"

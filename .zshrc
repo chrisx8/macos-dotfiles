@@ -13,7 +13,7 @@ source "$HOME/.cargo/env"
 [[ -f ~/.alias ]] && source ~/.alias
 
 # Preferred editor
-export EDITOR=vim
+export EDITOR=nvim
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"

@@ -9,6 +9,7 @@ Dotfiles for [Apple macOS](https://www.apple.com/macos/) on my MacBook Pro.
 - [Git](https://git-scm.com)
 - [GitHub CLI](https://github.com/cli/cli)
 - [Homebrew](https://brew.sh/)
+- [Neovim](https://neovim.io/)
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -26,6 +27,9 @@ dot config --local status.showUntrackedFiles no
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$ZSH_CUSTOM/themes/powerlevel10k"
+
+# Install vim-plug
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Set up Github CLI
 gh auth login
