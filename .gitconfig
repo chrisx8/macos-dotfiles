@@ -1,0 +1,23 @@
+[core]
+	autocrlf = input
+	symlinks = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[user]
+	name = Chris
+	email = chris@localhost
+[includeIf "gitdir:/Users/chris/Git/aur.archlinux.org/"]
+	path = /Users/chris/Git/aur.archlinux.org/.gitconfig
+[includeIf "gitdir:/Users/chris/Git/gitea.chrisx.xyz/"]
+	path = /Users/chris/Git/github.com/.gitconfig
+[includeIf "gitdir:/Users/chris/Git/github.com/"]
+	path = /Users/chris/Git/github.com/.gitconfig
+[includeIf "gitdir:/Users/chris/Git/gitlab.eecs.umich.edu/"]
+	path = /Users/chris/Git/gitlab.eecs.umich.edu/.gitconfig
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
