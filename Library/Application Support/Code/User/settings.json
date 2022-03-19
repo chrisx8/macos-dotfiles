@@ -28,6 +28,7 @@
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
+    "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontSize": 13,
     "editor.fontSize": 13,
 }

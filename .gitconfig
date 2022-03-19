@@ -1,6 +1,7 @@
 [core]
 	autocrlf = input
 	symlinks = true
+	excludesFile = /Users/chris/.gitignore
 [init]
 	defaultBranch = main
 [pull]
