@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin:/opt/homebrew/opt/node@16/bin:/opt/homebrew/Cellar/python@3.10/3.10.2/bin:$PATH"
 source "$HOME/.cargo/env"
 
 # Load aliases
@@ -63,6 +63,12 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=()
 
 source $ZSH/oh-my-zsh.sh
+
+# Load Homebrew completions
+if type brew &>/dev/null
+then
+	FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+fi
 
 # Command completion
 autoload -Uz compinit && compinit -i
