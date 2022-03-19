@@ -4,8 +4,6 @@ Dotfiles for [Apple macOS](https://www.apple.com/macos/) on my MacBook Pro.
 
 ## Software used
 
-- [Chromium](https://www.chromium.org/Home)
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Git](https://git-scm.com)
 - [GitHub CLI](https://github.com/cli/cli)
 - [Homebrew](https://brew.sh/)
