@@ -2,6 +2,8 @@
 	autocrlf = input
 	symlinks = true
 	excludesFile = /Users/chris/.gitignore
+[credential]
+	helper = osxkeychain
 [init]
 	defaultBranch = main
 [pull]
