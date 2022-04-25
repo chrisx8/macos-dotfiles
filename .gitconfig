@@ -14,7 +14,7 @@
 [includeIf "gitdir:/Users/chris/Git/aur.archlinux.org/"]
 	path = /Users/chris/Git/aur.archlinux.org/.gitconfig
 [includeIf "gitdir:/Users/chris/Git/gitea.chrisx.xyz/"]
-	path = /Users/chris/Git/github.com/.gitconfig
+	path = /Users/chris/Git/gitea.chrisx.xyz/.gitconfig
 [includeIf "gitdir:/Users/chris/Git/github.com/"]
 	path = /Users/chris/Git/github.com/.gitconfig
 [includeIf "gitdir:/Users/chris/Git/gitlab.eecs.umich.edu/"]
