@@ -11,7 +11,7 @@ Dotfiles for [Apple macOS](https://www.apple.com/macos/) on my MacBook Pro.
 - [Neovim](https://neovim.io/)
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [VSCodium](https://vscodium.com/)
 - [ZSH](http://zsh.sourceforge.net/)
 
 ## Setup

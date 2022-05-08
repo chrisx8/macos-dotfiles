@@ -9,6 +9,9 @@ rm -rf ~/Library/Application\ Support/BraveSoftware/Brave-Browser/Guest\ Profile
 rm -rf ~/Library/Application\ Support/Signal/*Cache*
 rm -rf ~/Library/Application\ Support/Signal/logs
 rm -rf ~/Library/Application\ Support/Signal/temp
+rm -rf ~/Library/Application\ Support/VSCodium/*Cache*
+rm -rf ~/Library/Application\ Support/VSCodium/logs
+rm -rf ~/Library/Application\ Support/VSCodium/Service\ Worker
 rm -rf ~/Library/Caches/Chromium
 rm -rf ~/Library/Caches/pip
 rm -rf ~/.lldb
