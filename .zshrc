@@ -67,15 +67,8 @@ fi
 autoload -Uz compinit && compinit -i
 autoload -Uz bashcompinit && bashcompinit
 
-# Load aliases
-[[ -f ~/.alias ]] && source ~/.alias
-
 # Preferred editor
 export EDITOR=nvim
 
-# Lima default config
-export LIMA_INSTANCE=fedora
-export LIMA_SHELL=/usr/bin/zsh
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+# Load aliases
+[[ -f ~/.alias ]] && source ~/.alias
