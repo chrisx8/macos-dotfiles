@@ -17,6 +17,8 @@
 	path = /Users/chris/Git/gitea.chrisx.xyz/.gitconfig
 [includeIf "gitdir:/Users/chris/Git/github.com/"]
 	path = /Users/chris/Git/github.com/.gitconfig
+[includeIf "gitdir:/Users/chris/Git/gitlab.com/"]
+	path = /Users/chris/Git/gitlab.com/.gitconfig
 [includeIf "gitdir:/Users/chris/Git/gitlab.eecs.umich.edu/"]
 	path = /Users/chris/Git/gitlab.eecs.umich.edu/.gitconfig
 [filter "lfs"]

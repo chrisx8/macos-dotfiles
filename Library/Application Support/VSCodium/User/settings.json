@@ -18,12 +18,8 @@
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#363636"
     },
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
     "workbench.enableExperiments": false,
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "ansible.ansible.useFullyQualifiedCollectionNames": false,
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.cStandard": "c17",
     "cSpell.allowCompoundWords": true,
@@ -32,5 +28,5 @@
     "redhat.telemetry.enabled": false,
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
+    }
 }
