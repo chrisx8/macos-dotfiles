@@ -76,3 +76,6 @@ export EDITOR=nvim
 
 # Load aliases
 [[ -f ~/.alias ]] && source ~/.alias
+
+# Lima default config
+export LIMA_INSTANCE=fedora
